@@ -38,11 +38,10 @@ footer {
 }
 .hero-img {
   width: 100%;
-  height: auto;
-  max-height: 320px;
+  aspect-ratio: 16 / 9;   /* 🔑 mantiene proporción */
+  object-fit: cover;     /* rellena sin deformar */
+  object-position: center;
   display: block;
   margin-bottom: 30px;
-}
-
 }
 
