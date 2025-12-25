@@ -38,9 +38,8 @@ footer {
 }
 .hero-img {
   width: 100%;
-  height: 280px;        /* un poco menos alta */
-  object-fit: cover;
-  object-position: center top; /* muestra más la parte superior */
+  max-height: 350px;
+  object-fit: contain;   /* ← CLAVE: no corta la imagen */
+  background-color: #f4f6f8; /* relleno elegante si sobra espacio */
   display: block;
-  margin-bottom: 30px;
-}
+
